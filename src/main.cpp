@@ -1,6 +1,8 @@
 // src/main.cpp
 #include <ncurses.h>
 #include <dirent.h>
+#include <iomanip>
+#include <cstring>   
 #include <unistd.h>
 #include <string>
 #include <vector>
@@ -260,3 +262,5 @@ int main() {
     endwin();
     return 0;
 }
+
+
